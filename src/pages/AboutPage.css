@@ -1,0 +1,77 @@
+.about-us{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.about{
+    color: #4B5563;
+}
+.us{
+    color: #1F2937;
+}
+.aboutt{
+    display: flex;
+    /* width: 100%; */
+}
+.text{
+    width: 80%;
+    margin-top: 50px;
+}
+.images{
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.para{
+    color: #4B5563;
+    margin-top: 70px;
+}
+.para1{
+    margin-top: 30px;
+    color: #4B5563;
+}
+.our-vision{
+    color: #4B5563;
+    margin-top: 30px;
+}
+.para2{
+    margin-top: 30px;
+    color: #4B5563;
+}
+.why-us{
+    display: flex;
+    gap: 5px;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.eff{
+    color: #1F2937;
+}
+.eff-para{
+    color: #4B5563;
+    width: 300px;
+    margin-top: 20px;
+}
+.eff-para1{
+    color: #4B5563;
+    width: 300px;
+}
+.over-eff{
+    padding: 30px 60px;
+    background-color: white;
+    border: 2px solid #ABABAB;
+    width: 350px;
+}
+.overall-eff{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+    .aboutt{
+        flex-direction: column;
+    }
+    
+}

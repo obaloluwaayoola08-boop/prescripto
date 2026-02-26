@@ -1,0 +1,71 @@
+.contact-us{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contact{
+    color: #4B5563;
+}
+.us{
+    color: #0b0b0b;
+}
+.contactt{
+    display: flex;
+    /* width: 100%; */
+}
+.words{
+    width: 80%;
+}
+.image{
+    width: 65%;
+    margin-top: 50px;
+    margin-left: 160px;
+    
+
+}
+.para{
+    color: #4B5563;
+    margin-top: 20px;
+}
+.para1{
+    margin-top: 20px;
+    color: #4B5563;
+}
+.our-vision{
+    color: #4B5563;
+    margin-top: 30px;
+}
+.para2{
+    margin-top: 20px;
+    color: #4B5563;
+}
+.para3{
+    margin-top: 20px;
+    color: #4B5563;
+}
+.why-us{
+    display: flex;
+    gap: 5px;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.pres{
+    margin-top: 30px;
+    color: #4B5563;
+}
+.para4{
+    margin-top: 30px;
+    color: #4B5563;
+}
+.button-outline{
+    align-items: center;
+    padding: 10px 20px;
+    color: #1F2937;
+    margin-top: 30px;
+
+}
+.our{
+    margin-top: 70px;
+    color: #4B5563;
+}

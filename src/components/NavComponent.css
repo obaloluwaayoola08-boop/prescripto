@@ -2,8 +2,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 10px 20px;
     background-color: white;
+    position: relative;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 }
 nav ul{
@@ -13,5 +14,90 @@ nav ul{
 nav li{
     list-style: none;
     text-transform: uppercase;
+}
+
+.small-screen{
+    display: none;
+}
+
+.small-screen-menu{
+    
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    z-index: 999;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Base animation class */
+.slide {
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+
+.slide-in-right {
+  animation-name: slideInRight;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.slide-out-left {
+  animation-name: slideOutLeft;
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px){
+   .small-screen{
+    display: block;
+    font-size: 24px;
+    color: #5F6FFF;
+   }
+   .nav-logo img{
+      width: 120px;
+      height: 40px;
+    
+      
+   }
+   nav ul{
+    flex-direction:column;
+   }
+   .large-screen{
+    display: none;
+   }
+   .nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #5F6FFF;
+    font-size: 24px;
+   }
 }
 

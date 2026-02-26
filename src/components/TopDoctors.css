@@ -1,0 +1,70 @@
+.top-doctors{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+
+    padding: 40px;
+    color: #4b5563;
+    text-align: center;
+}
+
+
+.doctors-container{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-card{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    width: 200px;
+    border-radius: 10px;
+    overflow:hidden;
+    border: 1px solid #2525253a;
+    cursor: pointer;
+    transition: all 0.7s ease;
+
+
+
+}
+.doctor-card:hover{
+    transform: scale(1.05);
+}
+.top-doctors .picture-wrapper{
+    width: 100%;
+    height: 200px;
+    background-color: #c9d8ff;
+    
+
+}
+.doctor-card img{
+    width: 90%;
+    height: 100%;
+   
+}
+.doctor-card h5{
+    color: green;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+.doctor-details{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.doctor-card h3{
+    margin-top: 10px;
+    text-align: start;
+    margin-bottom: 5px;
+}
+.doctor-details p{
+    text-align: start;
+}
+.doctor-card .unavailable{
+    color: grey;
+}

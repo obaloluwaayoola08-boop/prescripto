@@ -46,3 +46,30 @@
 .hero-right img{
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .hero-section{
+        flex-direction: column-reverse;
+        padding: 20px;
+        margin-top: 0;
+        border-radius: 0;
+        gap:10px;
+    }
+    .hero-left h1{
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .hero-details{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-left p{
+        text-align: center;
+    }
+    button{
+        width: 100%;
+        justify-content: center;
+    }
+}
