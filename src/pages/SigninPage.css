@@ -1,0 +1,47 @@
+.sign-in .all{
+    border: 1px solid #D4D4D4; 
+    background-color: white;
+    width: 40%;
+    margin: 100px 300px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.sign-in .up p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sign-in .name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sign-in .wrapper{
+    display: flex;
+    justify-content: center;
+}
+.sign-in .button-blue{
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.sign-in .name input{
+    border-radius: 5px;
+    border-color: #DADADA;
+    padding: 10px;
+    border-style: solid;
+}
+.sign-in .form label{
+    margin-top: 10px;
+    color: #4B5563;
+}
+.sign-in .all p, .sign-in .all h2{
+    color: #4B5563;
+}
+.sign-in .down a{
+    color: #5F6FFF;text-decoration: underline;
+}

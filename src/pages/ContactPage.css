@@ -12,7 +12,6 @@
 }
 .contactt{
     display: flex;
-    /* width: 100%; */
 }
 .words{
     width: 80%;
@@ -68,4 +67,31 @@
 .our{
     margin-top: 70px;
     color: #4B5563;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .contactt{
+        flex-direction: column;
+    }
+    .image{
+        margin: 30px;
+        width: 80%;
+    }
+    .words{
+        width: 80%;
+        margin: 30px;
+    }
+    .our, .pres{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .our{
+        margin-top: 20px;
+    }
+    .pres{
+        margin-top: 50px;
+    }
 }

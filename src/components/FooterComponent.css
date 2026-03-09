@@ -1,0 +1,58 @@
+.footters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 90%;
+    color: #4B5563;
+}
+footer{
+    background-color: #F3F4F6;
+    padding: 50px 50px;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.logo{
+    width: 150px;
+}
+.foot p{
+    font-size: 14px;
+    width: 35%;
+    color: #4B5563;
+    width: 60%;
+}
+.foot{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    width: 50%;
+    
+}
+.comp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+.comp p{
+    font-size: 14px;
+    color: #4B5563;
+}
+@media screen and (max-width: 768px){
+    footer{
+        flex-direction: column;
+        
+        
+    }
+    .footters{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .foot p{
+        width: 200px;
+    }
+    .comp{
+        
+        margin-top: 20px;
+    }
+    
+}

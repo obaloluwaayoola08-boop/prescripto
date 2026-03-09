@@ -1,0 +1,54 @@
+.alldoc-button {
+    margin-top: 30px;
+}
+.all-docs-title{
+    color: #4B5563;
+    margin-top: 25px;
+}
+
+.alldoc-button .button-outline {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #4B5563;
+    border: 2px solid #B4B4B4;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.alldoc-button .button-outline:hover {
+    background-color: #B4B4B4;
+    color: white;
+}
+
+.alldoc-button .button-solid {
+    padding: 10px 20px;
+    background-color: #E2E5FF;
+    color: #4B5563;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.alldoc-button .button-solid:hover {
+    background-color: #4B5563;
+    color: white;
+}
+
+.all-docs{
+    display: flex;
+    
+}
+@media screen and (max-width: 768px) {
+    .all-docs{
+        flex-direction: column;
+        align-items: center;
+    }
+}

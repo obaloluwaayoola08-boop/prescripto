@@ -1,77 +1,95 @@
-.about-us{
+.about-page .about-us{
     display: flex;
     gap: 5px;
     justify-content: center;
     margin-top: 50px;
 }
-.about{
+.about-page .about{
     color: #4B5563;
 }
-.us{
+.about-page .us{
     color: #1F2937;
 }
-.aboutt{
+.about-page .aboutt{
     display: flex;
     /* width: 100%; */
 }
-.text{
+.about-page .text{
     width: 80%;
     margin-top: 50px;
 }
-.images{
+.about-page .images{
     width: 70%;
     margin-top: 50px;
     margin-left: 40px;
 }
-.para{
+.about-page .para{
     color: #4B5563;
     margin-top: 70px;
 }
-.para1{
+.about-page .para1{
     margin-top: 30px;
     color: #4B5563;
 }
-.our-vision{
+.about-page .our-vision{
     color: #4B5563;
     margin-top: 30px;
 }
-.para2{
+.about-page .para2{
     margin-top: 30px;
     color: #4B5563;
 }
-.why-us{
+.about-page .why-us{
     display: flex;
     gap: 5px;
     margin-top: 60px;
     margin-left: 35px;
 }
-.eff{
+.about-page .eff{
     color: #1F2937;
 }
-.eff-para{
+.about-page .eff-para{
     color: #4B5563;
     width: 300px;
     margin-top: 20px;
 }
-.eff-para1{
+.about-page .eff-para1{
     color: #4B5563;
     width: 300px;
 }
-.over-eff{
+.about-page .form-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.about-page .over-eff{
     padding: 30px 60px;
     background-color: white;
     border: 2px solid #ABABAB;
-    width: 350px;
+    flex: 1;
 }
-.overall-eff{
+.about-page .overall-eff{
     display: flex;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
-    .aboutt{
+    .about-page .aboutt{
         flex-direction: column;
     }
-    
+    .about-page .overall-eff{
+        flex-direction: column;
+        margin: 10px;
+        
+    }
+    .about-page .over-eff{
+        width: 100%;
+        
+    }
+    .about-page .eff-para{
+        width: 250px;
+    }
+    .about-page .text{
+        margin: 30px;
+    }
 }

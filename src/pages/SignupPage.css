@@ -1,0 +1,62 @@
+.sign-up .form {
+    background-color: #FFFFFF;
+    width: 300px;
+    border: 2px solid #D4D4D4;
+    margin-top: 70px;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.sign-up .form-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sign-up .a{
+    cursor: pointer;
+    color: #5F6FFF;
+    text-decoration: underline;
+}
+.sign-up .already{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.sign-up .form h3 {
+    color: #4B5563;
+}
+
+.sign-up .form p {
+    color: #4B5563;
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+.sign-up .fullname {
+    color: #4B5563;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.sign-up .input {
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    width: 250px;
+    height: 27px;
+    margin-top: 5px;
+}
+
+.sign-up .button-solid {
+    align-items: center;
+    padding: 7px 20px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: #5F6FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px;
+
+}
+.sign-up .button-solid :hover{
+    color: #4B5563;
+}

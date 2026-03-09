@@ -4,6 +4,7 @@ import "./HomePage.css"
 import HeroComponent from '../components/HeroComponent'
 import FindBySpeciality from '../components/FindBySpeciality'
 import TopDoctors from '../components/TopDoctors'
+import FooterComponent from '../components/FoooterComponent'  
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
           <HeroComponent /> 
           <FindBySpeciality />
           <TopDoctors/>
+          <FooterComponent />
     </div>
   )
 }
