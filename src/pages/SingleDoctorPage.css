@@ -1,17 +1,243 @@
 .single-doctor-page .details-wrapper{
     padding-top: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
 }
 
-.single-doctor-page .picture-wrapper{
-    width: 300px;
+.single-doctor-page .pictures-wrapper{
+    width: 70%;
     height: 300px;
     background-color: #c9d8ff;
     border-radius: 20px;
     
 
 }
-.single-doctor-page .picture-wrapper img{
+.single-doctor-page .pictures-wrapper img{
     width: 90%;
     height: 100%;
    
+}
+.single-doctor-page .details{
+    padding: 30px;
+    padding-right: 120px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.name .verified{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}.name .no-years{
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.about h3{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about p{
+    margin-bottom: 20px;
+    color: #4B5563;
+}
+.fee p{
+    align-items: center;
+    display: flex;
+    color: #4B5563;
+}
+.single-doctor-page .fee p{
+    gap: 5px;
+}
+.name p{
+    color: #4B5563;
+}
+.verified h1{
+    color: #1F2937;
+    font-weight: 500;
+}
+.about h3{
+    color: #1F2937;
+}
+
+.booking-slot .weeks button{
+    background-color: white;
+    color:1px solid #4B5563;
+    padding: 15px 10px;
+    border-radius: 20px;
+    border:1px solid #9CA3AF;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.booking-slot .weeks button:hover{
+    background-color: #5F6FFF;
+    color: white;
+}
+
+.booking-slot .time button{
+    background-color: white;
+    color:1px solid #4B5563;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border:1px solid #9CA3AF;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.booking-slot .time button:hover{
+     background-color: #5F6FFF;
+    color: white;
+}
+.single-doctor-page .booking-slot h4{
+    color: #565656;
+    font-weight: 500;
+}
+.single-doctor-page .booking-slot{
+    margin-left: 330px;
+}
+.booking-slot .button button{
+    background-color: #5F6FFF;
+    color: white;
+    padding: 15px 50px;
+    border: 1px solid #5F6FFF;
+    border-radius: 47px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.booking-slot .button button:hover{
+    background-color: white;
+    color: #5F6FFF;
+    border: 1px solid #5F6FFF;
+}
+
+
+
+
+
+.doctors-container{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-card{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    width: 200px;
+    border-radius: 10px;
+    overflow:hidden;
+    border: 1px solid #2525253a;
+    cursor: pointer;
+    transition: all 0.7s ease;
+
+
+
+}
+.doctor-card:hover{
+    transform: scale(1.05);
+}
+.top-doctors .picture-wrapper{
+    width: 100%;
+    height: 200px;
+    background-color: #c9d8ff;
+    
+
+}
+.doctor-card img{
+    width: 100%;
+    height: 100%;
+    background-color: #EAEFFF;
+   
+}
+.doctor-card h5{
+    color: green;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+.doctor-details{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.doctor-card h3{
+    margin-top: 10px;
+    text-align: start;
+    margin-bottom: 5px;
+}
+.doctor-details p{
+    text-align: start;
+}
+.doctor-card .unavailable{
+    color: grey;
+}
+.button-more button{
+    border-radius: 20px;
+    padding: 10px 50px;
+    background-color: #EAEFFF;
+    border-style: hidden;
+    color: #4B5563;
+}
+.related-doctors .heading h2{
+    color: #1F2937;
+}
+.related-doctors .heading p{
+    color: #4B5563;
+}
+.related-doctors .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.single-doctor-page .related-doctors{
+    margin-bottom: 200px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .single-doctor-page .details-wrapper{
+        flex-direction: column;
+    }
+    .single-doctor-page .pictures-wrapper {
+    width: 90%;
+    height: 400px;
+    }
+    .single-doctor-page .details {
+        padding-right: 20px;
+        margin: 30px;
+    }
+    .single-doctor-page .booking-slot {
+    margin: 30px;
+    }
+    .booking-slot .weeks{
+        display: flex;
+        width: 80%;
+    }
+    .booking-slot .time{
+        display: flex;
+    }
+    .doctor-card img {
+    width: 200px;
+    }
 }

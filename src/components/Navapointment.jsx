@@ -24,14 +24,7 @@ const NavComponent = () => {
             </div>
             <div className='profile-nav'>
                 <img src='profile img.svg' alt='logo' />
-                <img src='dropdow.svg' alt='logo' />
-                <section className="language" id="language">
-                    <option value=""></option>
-                    <option value="">My Profile</option>
-                    <option value="">My Appointments</option>
-                    <option value="">Logout</option>
-                </section>
-
+               
             </div>
 
 
@@ -73,18 +66,7 @@ const NavComponent = () => {
                             <li><Link to="/signup">Signup</Link></li>
                         </ul>
 
-                        <div className='drop-down'>
-
-                            <img src='profile img.svg' alt='logo' />
-
-                            <select className="language" id="language">
-                                <option value=""></option>
-                                <option value="">My Profile</option>
-                                <option value="">My Appointments</option>
-                                <option value="">Logout</option>
-                            </select>
-
-                        </div>
+                      
 
                     </div>
                 )

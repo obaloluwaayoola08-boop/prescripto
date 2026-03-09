@@ -94,7 +94,8 @@ nav li {
         font-size: 24px;
         color: #5F6FFF;
     }
-
+  
+    }
     .nav-logo img {
         width: 120px;
         height: 40px;
@@ -117,4 +118,3 @@ nav li {
         color: #5F6FFF;
         font-size: 24px;
     }
-}

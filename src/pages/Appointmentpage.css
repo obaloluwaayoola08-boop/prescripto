@@ -79,3 +79,49 @@
     flex-direction: column;
     gap: 10px;
 }
+@media screen and (max-width: 768px) {
+    .appointment-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:10px  2px;
+}
+.appointment-title{
+    color: #4B5563;
+    margin-top: 25px;
+    font-size: 20PX;
+}
+.specialty{
+    margin-top: 5px;
+    color: #4B5563;
+}
+.address{
+    color: #4B5563;
+    margin-top: 5px;
+}
+.address-details{
+    color: #4B5563;
+    margin-top: 5px;
+}
+.date-time{
+    color: #4B5563;
+    margin-top: 10px;
+}
+.cancel-button{
+    margin: auto;
+    text-align: center;
+}
+.paid{
+    margin: auto;
+    text-align: center;
+}
+.cancel-button-div{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.overall-div{
+    padding: 2px;
+}
+}

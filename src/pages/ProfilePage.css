@@ -1,0 +1,181 @@
+.profile-page{
+    padding: 40px 80px;
+
+}
+.prof-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+
+.prof-img img{
+    width: 155px;
+}
+.paar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.head{
+    color: #1F2937;
+    border: 1px;
+    
+
+}
+.head2{
+    color: #797979;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.mation{
+    display: flex;
+    gap: 100px;
+    
+    width: 38%;
+}
+.head{
+    margin-top: 20px;
+    
+    
+}
+.head2{
+    margin-top: 20px;
+    width: 7
+}
+.profile-image{
+    gap: 20px;
+}
+.mail{
+    margin-bottom: 20px;
+    
+}
+.phonn{
+    margin-bottom: 20px;
+}
+.add{
+    margin-bottom: 20px;
+}
+.mail2{
+    margin-bottom: 20px;
+    color: #3C96FF;
+}
+.phonn2{
+    margin-bottom: 20px;
+    color: #3C96FF;
+}
+.add2{
+    margin-bottom: 20px;
+}
+
+
+.base{
+    display: flex;
+    gap: 100px;
+    
+    width: 38%;
+}
+.gend{
+    gap: 20px;
+    
+}
+.gendd{
+    margin-bottom: 20px;
+}
+.gend{
+    margin-bottom: 20px;
+}
+.july{
+    display: flex;
+    gap: 3px;
+}
+.button-container {
+  display: flex;
+  gap: 10px; 
+  width: 39%;
+
+}
+
+
+.btn {
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 20px;
+  height: 45px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
+
+
+.edit-btn {
+  border: 2px solid #5F6FFF;
+  color: #4B5563;
+  width: 20%;
+  
+}
+
+.edit-btn:hover {
+  background-color: rgb(242, 235, 235);
+  color: white;
+}
+
+
+.save-btn {
+  border: 2px solid #5F6FFF;
+  color: #4B5563;
+  width: 40%;
+  
+}
+
+.save-btn:hover {
+  background-color: rgb(245, 241, 241);
+  color: white;
+}
+.button-container{
+    margin-top: 20px;
+
+}
+@media screen and (max-width: 768px) {
+    .prof-img{
+    gap: 15px;
+    padding: 15px;
+    }
+    .profile-page{
+        padding: 0;
+    }
+    .head{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .head2{
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+    .mation{
+        gap: 40px;
+        margin-left: 20px;
+    }
+    .button-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+        margin-top: 20px;
+        
+    }
+    .edit-btn{
+        width: 100%;
+        
+    }
+    .save-btn{
+        width: 100%;
+    }
+
+
+}
