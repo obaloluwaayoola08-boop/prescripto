@@ -1,13 +1,13 @@
 import React from 'react'
 import "./AboutPage.css"
 import NavComponent from '../components/NavComponent'
-import FooterComponent from '../components/FoooterComponent'
+import FooterComponent from '../components/FooterComponent'
 
 const AboutPage = () => {
   return (
     <div className="about-page">
     
-          <NavComponent/> 
+  
   
     <div className='about-us'>
      <h3 className='about'>ABOUT</h3>
@@ -49,8 +49,9 @@ const AboutPage = () => {
        <h5 className='eff-para1'> To help you stay on top of your health.</h5>
      </div>
  </div>
- <FooterComponent />
-    
+    <div>
+      <FooterComponent/>
+    </div>
     
     </div>
   )

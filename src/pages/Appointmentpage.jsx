@@ -1,5 +1,6 @@
 import React from 'react'
-import "./Appointmentpage.css"
+import "./AppointmentPage.css"
+import male1 from "../assets/male1.png"
 import NavComponent from '../components/NavComponent'
 import Navappointment from '../components/Navapointment'
 
@@ -7,7 +8,6 @@ import Navappointment from '../components/Navapointment'
 const Appointmentpage = () => {
   return (
     <div className='appointment-page'>
-      <Navappointment />
       <div>
         <h1 className='appointment-title'>My Appointments</h1>
       </div>
@@ -15,7 +15,7 @@ const Appointmentpage = () => {
       <div className='appointment-details'>
         <div className='overall-div'>
           <div className='img'>
-            <img src='/image appoint.png' alt='appointment' />
+            <img src={male1} alt='appointment' />
           </div>
 
           <div>
@@ -37,7 +37,7 @@ const Appointmentpage = () => {
       <div className='appointment-details'>
         <div className='overall-div'>
           <div className='img'>
-            <img src='/image appoint.png' alt='appointment' />
+            <img src={male1} alt='appointment' />
           </div>
 
           <div>
@@ -60,7 +60,7 @@ const Appointmentpage = () => {
       <div className='appointment-details'>
         <div className='overall-div'>
           <div className='img'>
-            <img src='/image appoint.png' alt='appointment' />
+            <img src={male1} alt='appointment' />
           </div>
 
           <div>

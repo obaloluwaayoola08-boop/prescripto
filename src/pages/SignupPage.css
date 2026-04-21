@@ -20,6 +20,10 @@
 .sign-up .already{
     font-size: 14px;
     margin-top: 10px;
+    
+}
+.sign-up .already a{
+    color: #5F6FFF;text-decoration: underline;
 }
 
 .sign-up .form h3 {

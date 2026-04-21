@@ -1,21 +1,22 @@
 import React from 'react'
+import NavComponent from '../components/NavComponent'
 import "./HomePage.css"
 import HeroComponent from '../components/HeroComponent'
 import FindBySpeciality from '../components/FindBySpeciality'
 import TopDoctors from '../components/TopDoctors'
-import FooterComponent from '../components/FoooterComponent'
+import FooterComponent from '../components/FooterComponent'
 import AppointmentComponent from '../components/AppointmentComponent'
-import NavComponent from '../components/NavComponent'
 
-const HomePage = () => {
+
+const HomePage = (props) => {
   return (
       <div className='home-page'>
-        <NavComponent />
+          
           <HeroComponent /> 
           <FindBySpeciality />
-          <TopDoctors/>
-          <AppointmentComponent/>
-          <FooterComponent/>
+      <TopDoctors doctorsData = {props.doctorsData} />
+      <AppointmentComponent/>
+      <FooterComponent/>
     </div>
   )
 }

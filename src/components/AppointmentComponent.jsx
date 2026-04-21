@@ -4,7 +4,6 @@ import React from 'react'
 import "./AppointmentComponent.css"
 import appointmentdoc from "../assets/appointmentdoc.png"
 import { FaArrowRightLong } from "react-icons/fa6";
-import { useEffect } from 'react';
 import { Link } from 'react-router-dom'
 
 

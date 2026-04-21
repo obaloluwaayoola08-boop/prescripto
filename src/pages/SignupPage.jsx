@@ -6,7 +6,7 @@ const SignupPage = () => {
   return (
     <div className="sign-up">
     
-        <NavComponent />
+       
       
       <div className='form-wrapper'>
       <div className='form'>

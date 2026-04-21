@@ -44,9 +44,13 @@
 
 .all-docs{
     display: flex;
+    gap: 20px;
     
 }
 @media screen and (max-width: 768px) {
+    .all-docs-title{
+        text-align: center;
+    }
     .all-docs{
         flex-direction: column;
         align-items: center;

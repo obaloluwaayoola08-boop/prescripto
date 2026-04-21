@@ -79,6 +79,12 @@
     flex-direction: column;
     gap: 10px;
 }
+.appointment-page{
+    padding-bottom: 100px;
+}
+.appointment-page .img img{
+    height: 180px;
+}
 @media screen and (max-width: 768px) {
     .appointment-details{
     display: flex;

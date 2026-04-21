@@ -1,19 +1,19 @@
 import React from 'react'
 import "./ProfilePage.css"
 import NavComponent from '../components/NavComponent'
-import FooterComponent from '../components/FoooterComponent'
+import FooterComponent from '../components/FooterComponent'
 
 
 
 const ProfilePage = () => {
     return (
         <div>
-            <NavComponent />
+          
             <div className='profile-page'>
 
             <div className='prof-img'>
-                <img src='pro.png' alt=''></img>
-                <img src='profileimage.png' alt=''></img>
+                <img src='/pro.png' alt=''></img>
+                <img src='/profileimage.png' alt=''></img>
             </div>
 
 
