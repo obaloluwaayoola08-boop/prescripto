@@ -10,7 +10,7 @@ const NavComponent = () => {
   return (
       <nav>
           <div className='nav-logo'>
-              <img src='/logo.svg' alt='logo'/>
+              <img src='./logo.svg' alt='logo'/>
 
              
               

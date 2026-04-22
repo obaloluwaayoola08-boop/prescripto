@@ -2,14 +2,15 @@
   "name": "vite-project",
   "homepage": "https://obaloluwaayoola08-boop.github.io/prescripto/",
   "private": true,
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+  
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {

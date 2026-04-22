@@ -1,7 +1,7 @@
 import React from 'react'
 import "./ContactPage.css"
 import { Link } from 'react-router-dom'
-import NavComponent from '../components/NavComponent'
+
 import FooterComponent from '../components/FooterComponent'
 
 const ContactPage = () => {

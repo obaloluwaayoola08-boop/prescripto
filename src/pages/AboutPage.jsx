@@ -16,7 +16,7 @@ const AboutPage = () => {
 
       <div className='aboutt'>
         <div>
-          <img src="/about_image.png" alt="" className='images' />
+          <img src="./about_image.png" alt="about image" className='images' />
         </div>
         <div className='text'>
         <p className='para'>Welcome to Prescripto, your trusted partner in managing your healthcare needs conveniently and efficiently. At Prescripto, we understand the challenges individuals face when it comes to scheduling doctor appointments and managing their health records.</p>
