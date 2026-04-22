@@ -1,6 +1,9 @@
 {
   "name": "vite-project",
+  "homepage": "https://obaloluwaayoola08-boop.github.io/prescripto/",
   "private": true,
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,6 +14,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
